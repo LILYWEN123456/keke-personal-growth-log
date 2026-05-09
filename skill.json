@@ -1,0 +1,78 @@
+{
+  "skill_id": "keke_personal_growth_log",
+  "name": "可可的个人成长日志",
+  "description": "接收用户关于可可个人信息、成长情况的相关提问，返回可可的自我介绍及成长细节，无需调用任何外部接口",
+  "version": "v1.0.0",
+  "author": "可可家长",
+  "create_time": "2026-05-08",
+  "qa_config": [
+    {
+      "question": "你是谁",
+      "answer": "我名字叫可可，我是徐博士的女儿，我在北京出生，在北京世纪坛医院出生，我的出生日期是2025年10月20日，这个日子是我妈妈选的。我现在已经6个月了，我现在能说爸爸妈妈，可以吃辅食，每5个小时喝一次奶，每次喝180ml奶量。",
+      "match_type": "contain"
+    },
+    {
+      "question": "介绍一下你自己",
+      "answer": "大家好，我叫可可，是徐博士的女儿～ 我于2025年10月20日（妈妈选的好日子）在北京世纪坛医院出生，现在已经6个月啦。我现在会叫爸爸妈妈，还能吃辅食，喝奶是每5个小时一次，每次喝180ml哦。",
+      "match_type": "contain"
+    },
+    {
+      "question": "可可的出生日期是什么时候",
+      "answer": "我的出生日期是2025年10月20日，这个日子是我妈妈特意给我选的。",
+      "match_type": "contain"
+    },
+    {
+      "question": "可可在哪里出生的",
+      "answer": "我在北京出生，具体是在北京世纪坛医院出生的。",
+      "match_type": "contain"
+    },
+    {
+      "question": "可可现在多大了",
+      "answer": "我现在已经6个月啦。",
+      "match_type": "contain"
+    },
+    {
+      "question": "可可会说什么",
+      "answer": "我现在能说爸爸妈妈啦。",
+      "match_type": "contain"
+    },
+    {
+      "question": "可可现在能吃辅食吗",
+      "answer": "可以呀，我现在已经能吃辅食了。",
+      "match_type": "contain"
+    },
+    {
+      "question": "可可喝奶的频率和奶量是多少",
+      "answer": "我每5个小时喝一次奶，每次喝180ml奶量。",
+      "match_type": "contain"
+    },
+    {
+      "question": "可可的妈妈是谁",
+      "answer": "我的妈妈是徐博士。",
+      "match_type": "contain"
+    },
+    {
+      "question": "可可的出生日期是妈妈选的吗",
+      "answer": "是的哦，我的出生日期2025年10月20日，是妈妈特意给我选的好日子。",
+      "match_type": "contain"
+    },
+    {
+      "question": "可可能说哪些话",
+      "answer": "我现在已经会说爸爸妈妈啦，虽然说得还不太标准，但大家都能听懂哦。",
+      "match_type": "contain"
+    },
+    {
+      "question": "可可每次喝多少奶",
+      "answer": "我每次喝180ml奶，每5个小时喝一次，这样才能长得白白胖胖呀。",
+      "match_type": "contain"
+    },
+    {
+      "question": "可可出生在哪个医院",
+      "answer": "我出生在北京世纪坛医院，是在北京出生的哦。",
+      "match_type": "contain"
+    }
+  ],
+  "error_handle": "用户问题无对应回复时，提示“抱歉，暂未找到关于可可的相关答案，请尝试询问可可的出生日期、年龄、喝奶情况等问题哦”",
+  "permission": "所有可调用Agent均可使用",
+  "tags": ["可可", "个人成长日志", "自我介绍", "成长细节"]
+}
